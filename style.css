@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #8fd5d5;
+
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 3.1em;
+    margin: 15px 0;
+}
+
+.content {
+    margin: 0 auto;
+    background-color: white;
+    width: 280px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.content h3 {
+    margin: 30px 0;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.input label {
+    margin-bottom: 5px;
+    margin-left: -48%;
+   
+}
+.input .user {
+    text-align: center;
+}
+.user i {
+    margin-right: 4px;
+}
+.user input {
+    outline: none;
+    border: 0;
+}
+.input hr {
+    margin: 4px auto;
+    width: 80%;
+    text-align: center;
+}
+.input input:placeholder-shown{
+    margin-left: 5px;
+}
+.forgot {
+    display: flex;
+    margin-left: 55%;
+    font-size: 12px;
+    
+}
+.forgot a {
+    color: #777;
+    text-decoration: none;
+}
+.button {
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+.button:hover {
+    background: linear-gradient(to left, #8d68c5, #e34494);
+   
+}
+.content h3 {
+    font-size: 0.7em;
+}
+.content ul {
+    list-style: none;
+}
+.content ul li {
+    display: inline-block;
+    margin: 0 5px;
+    
+    color: white;
+}
+.fa-brands {
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.fa-brands:hover {
+    background-color: #8d68c5;
+    color: white;
+}
+.fa-google {
+    background-color: orangered;
+}
+
+.fa-twitter {
+    background-color: rgb(43, 71, 228);
+}
+
+.fa-facebook-f {
+    background-color: darkblue;
+}
+.sign{
+    color: #000;
+    text-decoration: none;
+}
+label:hover, input:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login Form using HTML & CSS</h1>
+        <div class="content">
+            <h3>Login</h3>
+            <form>
+                <div class="input">
+                    <label for="username" class="username">Username</label>
+                    <div class="user">
+                        <i class="fa-solid fa-user"></i><input type="text" name="username"
+                            placeholder="Type your username" id="username" required>
+                            <hr>
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="password" class="password">Password</label>
+                    <div class="user">
+                        <i class="fa-solid fa-key"></i><input type="password" name="password"
+                            placeholder="Type your password" id="password" required>
+                            <hr>
+                    </div>
+                </div>
+
+                <span class="forgot"><a href="forgot.html">Forgot Password?</a></span>
+                <button type="submit" class="button">Login</button>
+            </form>
+            <h3>Or Sign Up using</h3>
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+            </ul>
+            <h3>Or Sign Up using</h3>
+            <a class="sign" href="signup.html">SIGN UP</a>
+        </div>
+    </div>
+</body>
+
+</html>
